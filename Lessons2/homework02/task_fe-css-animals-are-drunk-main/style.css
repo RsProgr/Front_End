@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 400px;
+}
+h2{
+  
+  text-decoration: underline;
+  color: blue;
+  font-size: 50px;
+  text-align: center;
+}
+.subheader{
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  color: #0e061b;
+  text-decoration: underline;
+  text-align: center;
+}
+#panda {
+  width: 50%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+a{
+  color: blueviolet;
+  font-size: 50px;
+  text-decoration:underline;
+  text-align: center;
+}
+p{
+  color: rgb(48, 29, 7);
+  margin: 50px;
+font-size: 50px;
+color: blue;
+text-align: center;
+
+}
+.footer-element{
+  font-size: 60px;
+  color: green;
+  text-align: center;
+}

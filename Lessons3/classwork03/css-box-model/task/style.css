@@ -1,0 +1,29 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block-div{
+    width: 250px;
+    height: 250px;
+    border: 2px solid purple;
+    margin: 10px 5px;
+    padding: 5px 10px;
+}
+
+.block-div:nth-child(n+3):nth-child(-n+8){
+    border-radius: 50%;
+    background-color: blue;
+}
+.block-div:nth-child(3n+1):nth-child(even){
+    border-radius: 50%;
+    background-color: green;
+
+}
+.block-div:nth-child(3n-1):nth-child(3n+2){
+    border-radius: 50%;
+    background-color: red;
+}

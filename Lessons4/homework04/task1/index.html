@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация у Санты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="../task1_media/santa700.jpg" alt="Санта Клаус" class="santa-image">
+        <h1>Регистрация у Санты</h1>
+        <form action="greetings.html" method="GET">
+            <div class="form-group">
+                <label for="login">Логин:</label>
+                <input type="text" id="login" name="login" required placeholder="Введите логин">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required placeholder="Введите пароль">
+            </div>
+
+            <div class="form-group">
+                <label for="fullname">ФИО:</label>
+                <input type="text" id="fullname" name="fullname" required placeholder="Введите ФИО">
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Пол:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Мужской</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Женский</label>
+            </div>
+
+            <div class="form-group">
+                <label for="birthdate">Дата рождения:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="favorite_toy">Любимая игрушка:</label>
+                <input type="text" id="favorite_toy" name="favorite_toy" placeholder="Введите любимую игрушку">
+            </div>
+
+            <div class="form-group">
+                <label for="wishlist">Желаемый подарок:</label>
+                <select id="wishlist" name="wishlist">
+                    <option value="bike">Велосипед</option>
+                    <option value="lego">Лего</option>
+                    <option value="doll">Кукла</option>
+                    <option value="book">Книга</option>
+                </select>
+            </div>
+
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </div>
+</body>
+</html>

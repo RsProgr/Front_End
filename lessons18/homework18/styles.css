@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #11356b;
+  }
+  
+  .timer-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timer {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #76a321;
+    background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ff6f61;
+    display: inline-block;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }

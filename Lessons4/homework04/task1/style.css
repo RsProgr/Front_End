@@ -1,0 +1,139 @@
+/* Общие стили для всего документа */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #f5f7f9, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.santa-image {
+    width: 400px; 
+    height: auto;
+}
+
+h1 {
+    color: #d84315;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #ff5722;
+    box-shadow: 0 0 8px rgba(255, 87, 34, 0.3);
+    outline: none;
+}
+
+input[type="radio"] {
+    margin-right: 8px; /* Отступ справа от радиокнопок */
+    vertical-align: middle; /* Выравнивание радиокнопок по центру линии текста */
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-group label {
+    margin-right: 15px; /* Отступ между радиокнопками */
+    font-size: 16px; /* Размер шрифта для меток */
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #2196f3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Адаптивные стили */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+    
+    .santa-image {
+        width: 140px; /* Уменьшаем максимальную ширину на мобильных устройствах */
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+}

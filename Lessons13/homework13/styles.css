@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    padding: 140px;
+}
+
+h1 {
+    text-align: center;
+    color: #2b1596;
+    font-size: xxx-large;
+    text-decoration: underline;
+}
+
+#car-list {
+    padding: 40px;
+    background-color: #aecc26;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    list-style-type: decimal;
+}
+
+#car-list li {
+    padding: 15px;
+    font-size: 30px;
+}
+
+#car-list li:nth-child(4) {
+    font-weight: bold;
+    color: #ff4500;
+    background-color: #e0e0e0;
+}
